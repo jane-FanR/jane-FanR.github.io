@@ -1,0 +1,320 @@
+/*header&footer*/
+.fs-4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  color: #820000;
+}
+
+svg {
+  fill: #820000;
+}
+
+.nav-pills .nav-link,
+.nav-pills .dropdown-item {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #820000;
+  background-color: #820000 transparent;
+}
+
+.nav-link:hover,
+.nav-pills .dropdown-item:hover {
+  color: #4e6c50;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link.active:hover {
+  background-color: #820000;
+  color: #f2deba;
+}
+
+footer .nav .nav-link {
+  color: #820000;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 450;
+}
+
+footer .nav .nav-link:hover {
+  color: #4e6c50;
+}
+
+/*homepage*/
+#hpage_body,
+#reviews_body {
+  background-color: #faecd6;
+}
+
+.py-5,
+#myCarousel {
+  margin: 0 auto;
+}
+
+/* popup in homepage */
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+  z-index: 100;
+  display: none;
+}
+
+.popup-content {
+  padding: 14px 10px;
+  line-height: 1.5;
+  width: 60%;
+  margin: auto;
+}
+
+.popup-onload {
+  margin: 0 auto;
+  display: none;
+  position: fixed;
+  z-index: 101;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -300px;
+}
+
+.cnt223 {
+  min-width: 600px;
+  width: 600px;
+  min-height: 400px;
+  margin: 100px auto;
+  background-image: url(../images/popbg-steakhouse.jpg);
+  position: relative;
+  z-index: 103;
+  padding: 15px 35px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #000;
+  text-align:center;
+}
+
+.cnt223 h2{
+  color: #820000;
+  font-family: "Open Sans", sans-serif;
+  clear: both;
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.popup-content a{
+  color: #f2deba;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+/*hero and feature*/
+.btn {
+  background-color: #820000;
+  color: #f2deba;
+  border-color: transparent;
+  font-family: "Lato", sans-serif;
+}
+
+#hpage_body .btn a{
+  text-decoration: none;
+  color: #f2deba;
+  font-family: "Lato", sans-serif;
+}
+
+.btn:hover {
+  background-color: #4e6c50;
+  border-color: #820000;
+  color: #f2deba;
+}
+
+#hpage_hero h1,
+.feature h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: #820000;
+}
+
+.feature p,
+#hpage_hero p {
+  font-family: "Lato", sans-serif;
+}
+
+/* carousel */
+#hpage_body .carousel-item img {
+  width: 100%;
+  height: 10%;
+}
+
+#hpage_body .carousel-caption h1,
+#hpage_body .carousel-caption p {
+  font-family: "Lato", sans-serif;
+  color: #faecd6;
+}
+
+#hpage_body .carousel-caption h1 {
+  font-weight: 700;
+}
+
+/*Review*/
+
+.review {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+
+.review h1, .psrminigame {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #820000;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.review h1 span {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  background: linear-gradient(to left, #4e6c50, #820000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 15px;
+}
+
+.review .review_box {
+  width: 95%;
+  position: relative;
+  top: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.review .profile .profile_image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 5px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.review .profile .profile_image:hover {
+  transform: scale(1.2);
+}
+
+.review .profile_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.review .profile {
+  display: flex;
+  align-items: center;
+}
+
+.review .review_box .review_card {
+  width: 500px;
+  padding: 20px 25px;
+  border-radius: 5px;
+  margin: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.review .review_box .review_card .card_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review .review_box .review_card .card_top .profile .name {
+  margin-left: 20px;
+  line-height: 22px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #820000;
+}
+
+.review .review_box .review_card .card_top .profile .name strong {
+  font-size: 20px;
+}
+
+.review .review_box .review_card .card_top .profile .name .like i {
+  color: orange;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.review .review_box .review_card .comment p {
+  text-align: justify;
+  line-height: 22px;
+  margin-top: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 550;
+  color: #4e6c50;
+}
+
+/* minigames in reviews */
+.psrminigame{
+  font-size: 30px;
+}
+
+.selections {
+  display: flex;
+  justify-content: center;
+}
+
+.selection {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: 100ms;
+}
+
+.selection:hover {
+  transform: scale(1.2);
+}
+
+.results {
+  margin-top: 1rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  color: #820000;
+}
+
+.result-score {
+  margin-left: .1rem;
+  font-size: .5rem;
+  color: #333;
+}
+
+.result-selection {
+  opacity: .5;
+}
+
+.result-selection.winner {
+  opacity: 1;
+  font-size: 1.5rem;
+}
