@@ -318,3 +318,121 @@ footer .nav .nav-link:hover {
   opacity: 1;
   font-size: 1.5rem;
 }
+
+/*DANIEL
+/* I ADDED A "D" BEFORE EACH ID CREATED TO MAKE SURE THE OTHER CSS PROPERTIES UPLOADED BY MY TEAM DON'T BREAK MY CODE */
+
+ #dbody.contact::before { /* USED TO MAKE SURE THE BACKGROUND IMAGE WON'T MOVE WHILE THE USER IS SCROLLING */
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('../images/background3.jpg'); /*https://www.woodwardmeats.com/static/img/bg-wholesale-feature.e29dcc7d9707.jpg*/
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#dbody {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#dfs-4 {
+    color: #F2DEBA;
+}
+
+#dicon {
+    fill: #820000;
+}
+
+#dnav-pills #dnav-link {
+    color: #F2DEBA;
+}
+
+#dnav-pills #dnav-link:hover {
+    color: #820000;
+}
+
+#dnav-pills #dnav-link.active,
+#dnav-pills #dnav-link.active:hover {
+    background-color: #820000;
+    color: #F2DEBA;
+}
+
+#dnav-item,
+#dnav-link active {
+    color: #820000;
+}
+
+.nav.flex-column .nav-link,
+.nav.flex-column .nav-link:hover {
+    color: #F2DEBA;
+    text-decoration: none;
+}
+
+#dh {
+    font-family: 'Open Sans', sans-serif;
+    color: #820000;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    color: #820000;
+}
+
+#dp {
+    font-family: 'Raleway', sans-serif;
+    color: #F2DEBA;
+    font-weight: bold;
+}
+
+#dform-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#dtable {
+    font-family: 'Raleway', sans-serif;
+    color: #F2DEBA;
+    font-weight: 1000;
+}
+
+.dtable-spacing td {
+    padding: 7px;
+}
+
+input,
+textarea,
+select {
+    background-color: transparent;
+    color: #F2DEBA;
+    font-weight: bold;
+    text-align: center;
+}
+
+.set {
+
+    display: flex;
+}
+
+#copyright {
+    color: #F2DEBA;
+}
+
+select:focus {
+    color: black;
+}
+
+#dfooter #dnav #dnav-link {
+    color: #F2DEBA;
+}
+
+#dfooter #dnav #dnav-link:hover {
+    color: #820000;
+}
