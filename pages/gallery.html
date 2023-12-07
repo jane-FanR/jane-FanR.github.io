@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Restaurant - Gallery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Custom Stylesheet-->
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body id="menu_body">
+    <div class="container marketing">
+      <!--header-->
+      <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 448 512"><path d="M416 0C400 0 288 32 288 176V288c0 35.3 28.7 64 64 64h32V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352 240 32c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7V480c0 17.7 14.3 32 32 32s32-14.3 32-32V255.6c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16V150.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8V16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z"/></svg>
+            <span class="fs-4">Restaurant</span>
+          </a>
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="order-online.html" class="nav-link">Order Online</a></li>
+            <li class="nav-item"><a href="book-table.html" class="nav-link">Book a Table</a></li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Awards</a></li>
+              <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+              <li><a class="dropdown-item" href="reviews.html">Reviews</a></li>
+            </ul>
+          </li>
+          </ul>
+        </header>
+      </div>
+      <main class="container marketing">
+        <hr class="featurette-divider">
+        <div  class="gallery_title d-flex justify-content-center" >
+          <h1 >Gallery</h1>
+        </div>
+        <div class="gallery_grid" id="galleryGrid">
+          <!-- Photo Grid -->
+            <img id="myImg1" class="thumbnail" src="images/gallery1.jpg" alt="Praesent elit neque">
+            <!-- Photo by <a href="https://unsplash.com/@miracletwentyone?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joseph Gonzalez</a> on <a href="https://unsplash.com/photos/sandwich-with-boiled-egg-fdlZBWIP0aM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+            <img id="myImg2" class="thumbnail" src="images/gallery2.jpg" alt="Integer rhoncus viverra">
+            <!-- Photo by <a href="https://unsplash.com/@miracletwentyone?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joseph Gonzalez</a> on <a href="https://unsplash.com/photos/toast-bread-with-blueberry-on-black-plate-zcUgjyqEwe8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+            <img id="myImg3" class="thumbnail" src="images/gallery3.jpg" alt="Fusce ultrices, leo">
+            <!--Photo by <a href="https://unsplash.com/@simplethemes?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Casey Lee</a> on <a href="https://unsplash.com/photos/cooked-food-awj7sRviVXo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+            <img id="myImg4" class="thumbnail" src="images/gallery4.jpg" alt="Duis volutpat orci">
+            <!-- Photo by <a href="https://unsplash.com/@1ncreased?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Lidye</a> on <a href="https://unsplash.com/photos/burger-skewered-with-knife-near-black-textile-1Shk_PkNkNw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+            <img id="myImg5" class="thumbnail" src="images/gallery5.jpg" alt="Ut elit lacus">
+            <!-- Photo by <a href="https://unsplash.com/@brookelark?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Brooke Lark</a> on <a href="https://unsplash.com/photos/top-view-photography-of-fruits-in-plate-1Rm9GLHV0UA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+            <img id="myImg6" class="thumbnail" src="images/gallery6.jpg" alt="Aliquam sodales at">
+            <!-- Photo by <a href="https://unsplash.com/@brookelark?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Brooke Lark</a> on <a href="https://unsplash.com/photos/top-view-salad-with-guacamole-oaz0raysASk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+            <img id="myImg7" class="thumbnail" src="images/gallery7.jpg" alt="Vivamus aliquam dictum">
+            <!-- Photo by <a href="https://unsplash.com/@kobbymendez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kobby Mendez</a> on <a href="https://unsplash.com/photos/white-ice-cream-on-brown-cookie-idTwDKt2j2o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+            <img id="myImg8" class="thumbnail" src="images/gallery8.jpg" alt="Proin porttitor nibh">
+            <!-- Photo by <a href="https://unsplash.com/@sugercoatit?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Melissa Walker Horn</a> on <a href="https://unsplash.com/photos/clear-glass-cup-filled-with-water-and-lemon-gtDYwUIr9Vg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+            <img id="myImg9" class="thumbnail" src="images/gallery9.jpg" alt="Class aptent taciti">
+            <!-- Photo by <a href="https://unsplash.com/@sugercoatit?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Melissa Walker Horn</a> on <a href="https://unsplash.com/photos/clear-glass-cup-filled-with-water-and-lemon-gtDYwUIr9Vg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+            <img id="myImg10" class="thumbnail" src="images/gallery10.jpg" alt="Vivamus lectus diam">
+            <!-- Photo by <a href="https://unsplash.com/@miksbaum?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Michaela Baum</a> on <a href="https://unsplash.com/photos/three-chocolate-cupcakes-with-cherries-VnM6_liIRJ0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+        </div>
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content centered-content" id="img01" src=" " alt="canvas">
+          <div id="caption"></div>
+        </div>
+        <hr class="featurette-divider">
+        <script src="gallery.js"></script>
+      </main>
+    </div>  
+    <!--footer-->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+        <p class="col-md-4 mb-0 text-body-secondary">© 2023 Web Design Project</p>
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 448 512"><path d="M416 0C400 0 288 32 288 176V288c0 35.3 28.7 64 64 64h32V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352 240 32c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7V480c0 17.7 14.3 32 32 32s32-14.3 32-32V255.6c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16V150.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8V16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z"/></svg></a>
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Awards</a></li>
+          <li class="nav-item"><a href="reviews.html" class="nav-link">Reviews</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </ul>
+      </footer>
+    </div> 
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
