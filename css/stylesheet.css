@@ -586,3 +586,32 @@ select:focus {
     text-decoration: none;
     cursor: pointer;
 }
+
+/* CSS source code base for About Us page*/
+#body.about{
+    background-image: url('../CA/images/steak2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;    
+}
+/* CSS source code for Awards page */
+#body.award{
+    background-image: url('../CA/images/award3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:left;
+    margin: 0;
+    padding: 0;
+    
+}
+/* CSS source code for Text Animation in About Us and Awards pages */
+#fade-in-text {
+    animation: fadeIn 3s;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
