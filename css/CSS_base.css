@@ -1,0 +1,101 @@
+
+/* CSS source code base for About Us page*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:wght@700&family=Raleway:wght@200&family=Roboto&display=swap');
+body{
+    background-image: url('../CA/images/steak2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;    
+}
+
+
+/* Bootstrap - Navigation Bar */
+.nav-pills .nav-link {
+    color: #F2DEBA;
+}
+.nav-pills .nav-link:hover {
+    color: #820000;
+}
+.nav-pills .nav-link.active,
+.nav-pills .nav-link.active:hover {
+    background-color: #820000;
+    color: #F2DEBA;
+}
+.nav-item, .nav-link active {
+    color: #F2DEBA;
+}
+
+/* Footer customization */
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    }
+/* Bootstrap - Footer */
+.footer-link {
+    color: #F2DEBA;
+    text-decoration: none;   
+}
+
+.footer-link:hover {
+    color: #820000;
+    position: relative;
+    
+}
+.nav.flex-column .nav-link,
+.nav.flex-column .nav-link:hover {
+    color: #F2DEBA;
+    text-decoration: none;
+}
+
+/* Font customization */
+h1{
+    font-family: 'Open Sans', sans-serif;
+    color: #F2DEBA;
+    font-size: 500%;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    color: #F2DEBA;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    color: #F2DEBA;
+    font-size: 160%;
+}
+
+/* Header - Logo customization */
+.fs-4{
+    color:#820000;
+}
+svg {
+    fill: #820000;
+  }
+
+
+/* CSS source code for Awards page */
+#body.award{
+    background-image: url('../CA/images/award3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:left;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* CSS source code for Text Animation */
+.fade-in-text {
+    animation: fadeIn 3s;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+
+
+  
