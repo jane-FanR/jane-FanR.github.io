@@ -587,6 +587,8 @@ select:focus {
     cursor: pointer;
 }
 
+/* Jefferson's source CSS code*/
+
 /* CSS source code base for About Us page*/
 #body.about{
     background-image: url('../CA/images/steak2.jpg');
@@ -626,4 +628,10 @@ select:focus {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
-  
+ /* Footer customization */
+#footer.jeff {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    } 
