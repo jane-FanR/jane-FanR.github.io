@@ -606,6 +606,21 @@ select:focus {
     padding: 0;
     
 }
+/* Font customization */
+#h1.jeff{
+    font-family: 'Open Sans', sans-serif;
+    color: #F2DEBA;
+    font-size: 500%;
+}
+#a.jeff{
+    font-family: 'Roboto', sans-serif;
+    color: #F2DEBA;
+}
+#p.jeff{
+    font-family: 'Raleway', sans-serif;
+    color: #F2DEBA;
+    font-size: 160%;
+}
 /* CSS source code for Text Animation in About Us and Awards pages */
 #fade-in-text {
     animation: fadeIn 3s;
