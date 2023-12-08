@@ -28,7 +28,7 @@ body{
 }
 
 /* Footer customization */
-footer {
+#footer.jeff {
     background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
     background-repeat: no-repeat;
