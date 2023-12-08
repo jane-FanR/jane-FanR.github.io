@@ -590,8 +590,8 @@ select:focus {
 /* Jefferson's source CSS code*/
 
 /* CSS source code base for About Us page*/
-#body.about{
-    background-image: url('../CA/images/steak2.jpg');
+#about{
+    background-image: url('../images/steak2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -599,8 +599,8 @@ select:focus {
     padding: 0;    
 }
 /* CSS source code for Awards page */
-#body.award{
-    background-image: url('../CA/images/award3.jpg');
+#award{
+    background-image: url('../images/award3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position:left;
@@ -609,19 +609,19 @@ select:focus {
     
 }
 /* Font customization */
-#h1.jeff{
+#award h1, #about h1{
     font-family: 'Open Sans', sans-serif;
     color: #F2DEBA;
     font-size: 500%;
 }
 
-#p.jeff{
+#award p, #about p{
     font-family: 'Raleway', sans-serif;
     color: #F2DEBA;
     font-size: 160%;
 }
 /* CSS source code for Text Animation in About Us and Awards pages */
-#fade-in-text {
+.fade-in-text {
     animation: fadeIn 3s;
   }
   @keyframes fadeIn {
@@ -629,7 +629,7 @@ select:focus {
     100% { opacity: 1; }
   }
  /* Footer customization */
-#footer.jeff {
+#jeff footer{
     background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
     background-repeat: no-repeat;
