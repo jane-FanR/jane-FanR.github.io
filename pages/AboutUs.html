@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href= "CSS_base.css">
+    
+    <!--Java Script internal function for Top Page button-->
+    <script>
+     var mybutton = document.getElementById("MyButton");
+    window.onscroll = function() {
+                       scrollFunction();
+                   };
+ 
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+            }
+ 
+    function topFunction() {
+      document.body.scrollTop = 0; 
+      document.documentElement.scrollTop = 0; 
+                   }
+   </script>
+
+    <!--CSS internal source code for Top Page button-->
+    <style>
+    #MyButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color:#a74242; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+}
+
+#MyButton:hover {
+    background-color:#820000;
+}
+    </style>
+
+    <title>About Us</title>
+  
+</head>
+<body>
+
+    <div class="container">
+        <header>
+          
+            <div class="container">
+              <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                  <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 448 512"><path d="M416 0C400 0 288 32 288 176V288c0 35.3 28.7 64 64 64h32V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352 240 32c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7V480c0 17.7 14.3 32 32 32s32-14.3 32-32V255.6c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16V150.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8V16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z"/></svg>
+                  <span class="fs-4">Restaurant</span>
+                  
+                </a>
+                <ul class="nav nav-pills">
+                  <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+                  <li class="nav-item"><a href="AboutUs.html" class="nav-link">About Us</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Order Online</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Book a Table</a></li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Awards.html">Awards</a></li>
+                        <li><a class="dropdown-item" href="#">Gallery</a></li>
+                        <li><a class="dropdown-item" href="#">Reviews</a></li>
+                      </ul>
+                  </li>
+                </ul> 
+                     
+          
+              </header>
+            </div>
+            <div class="fade-in-text"> <!--All text in the body will have a fade-in effect/animation-->
+               
+                <h1>About Us</h1>
+                <p>Our history starts back in 1968 as a small family business, with humble origins when
+                    Mr. O'Neill, his wife Elizabeth “Betty” and his 3 sons ,decided to shape their dreams in a tangible reality.<br>
+                    Betty was known by their neighbours in a small village in Gorey, co.Wexford as a great cook, her Guiness Pie was simply decadent, with this “mom's touch”. They would sell it regularly to the few inhabitants in Gorey back then but the word spread fast until the point the O'Neills were famous in the whole county.
+                    Mr. O'Neill and his sons were in charge of the deliveries but the demand rose to the point they were afraid of not attending  to and lose customers - they could not afford that.<br> 
+                    Then, only 3 years later, in 1971, they opened their first pub - <i>Bettys</i>.
+                    It was an immediate success but the family started to face demand issues again. 
+                    However, that humble family from Wexford had bigger dreams and Mr. O'Neill decided to expand his wife's talent further away but now, in Dublin.
+                    In 1975, John and Michael O'Neill moved to the capital Dublin in order to keep the Bettys Pie known throughout Ireland. However, the boys chose a restaurant focused business over pubs as the segment was very competitive - and it worked.
+                    For years, the name O'Neill was associated with traditional and top-class Irish food until recently when the family decided to get a lift on this contemporaneous wave when their pioneer sense guided them once again to a new business - a steakhouse.
+                    Keeping  quality since that small farm in Gorey, prioritising the customer's experience, a <i>“Mum's Love”</i> as our motto says, rendered our stake house the ultimate recognition known in gastronomy, amongst many others, where you can find <a href="Awards.html">here.</a>
+                  </p>
+                    
+
+                    <img src="images/old_hands.jpg" alt="Old Hands" width= "40%">
+                <p><i>The "Mum's Touch", or "Mum's Love".</i></p></div>
+                
+            </main>
+            <div class="container">
+                <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+                  <div class="col mb-3">
+                    <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                    </a>
+                    <p class="text-body-secondary">© 2023</p>
+                  </div>
+              
+                  <div class="col mb-3">
+              
+                  </div>
+              
+                  <div class="col mb-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link active footer-link" aria-current="page">Home</a></li>
+                        <li class="nav-item"><a href="AboutUs.html" class="nav-link footer-link">About Us</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link footer-link">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col mb-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a href="#" class="nav-link footer-link">Menu</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link footer-link">Order Online</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link footer-link">Book a table</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col mb-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a href="Awards.html" class="nav-link footer-link">Awards</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link footer-link">Gallery</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link footer-link">Reviews</a></li>
+                    </ul>
+                </div>
+                </footer>
+
+                <!--Scroll to the top buttom functions-->
+
+                <button onclick="topFunction()" id="MyButton" title="Go to top">Top</button>
+  <script>
+     
+     var mybutton = document.getElementById("MyButton");
+
+     window.onscroll = function() {
+                      scrollFunction();
+                  };
+
+                  function scrollFunction() {
+                      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                          mybutton.style.display = "block";
+                      } else {
+                          mybutton.style.display = "none";
+                      }
+                  }
+
+                  function topFunction() {
+                      document.body.scrollTop = 0; 
+                      document.documentElement.scrollTop = 0; 
+                  }
+  </script>
+            
+</body>
+
+</html>
