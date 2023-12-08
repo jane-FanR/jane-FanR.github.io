@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     //references
     var modal = document.getElementById("myModal");
-    var modalImg = document.getElementById("img01");
+    var modalContent = document.getElementById("img01");
     var captionText = document.getElementById("caption");
 
     //references all elements
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         thumbnail.onclick = function () {
             //display the modal
             modal.style.display = "block";
-            modalImg.src = this.src;
+            modalContent.style.backgroundImage = "url('" + this.src + "')";
             captionText.innerHTML = this.alt;
         };
     });
